@@ -1,0 +1,37 @@
+<!doctype html>
+
+<head>
+    <title>Simple Todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="todo.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Todo list</h1>
+
+        <div class="input-box">
+            <input id="newItemInput" />
+            <input id="addNewButton" type="button" value="ADD" />
+        </div>
+
+        <ul id="items">
+            <!-- <li>
+                <div class="item">
+                    <input class="itemStatus" type="checkbox" />
+                    <div class="itemText">Test Item</div>
+                    <div class="deleteItem">X</div>
+                </div>
+            </li> -->
+        </ul>
+
+        <div class="filter-box">
+            <a id="completed" class="filter" href="javascript:void(0)">Completed</a>
+            <a id="active" class="filter" href="javascript:void(0)">Active</a>
+            <a id="all" class="filter" href="javascript:void(0)">All</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
